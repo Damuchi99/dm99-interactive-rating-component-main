@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
 *{
-    font-family: "Hanken Grotesk";
+    font-family: "Overpass";
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -17,12 +17,62 @@ body {
     background-color: rgb(18, 20, 23)!important;
 }
 
+.rating-container{
+    border-radius: 30px;
+    background: linear-gradient(rgb(35, 42, 50), rgb(23, 30, 40));
+    width: 400px;
+    height: 425px;
+    margin: 30px;
+    padding: 35px;
+}
 
+.rating-container .puntuacion .circulo{
+    border-radius: 50%;
+    background-color: rgb(37, 45, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.rating-container .puntuacion h2{
+    margin-top: 30px;
+}
+
+.rating-container .puntuacion p{
+    font-size: 15px;
+    color: rgb(124, 135, 152);
+}
+
+.rating-container .puntuacion .puntajes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rating-container .puntuacion .boton-enviar{
+    background-color: rgb(251, 116, 19);
+    color: white;
+    width: auto;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+/*.rating-container .puntuacion .boton-enviar p{
+    color: white;
+}*/
 
 /*-------CREDITOS-------*/
 
 .attribution {
-    font-size: 11px; text-align: center;
+    font-size: 11px;
+    text-align: center;
+    color: white;
 }
 
 .attribution a {
