@@ -26,6 +26,10 @@ body {
     padding: 35px;
 }
 
+.rating-container .puntuacion{
+    display: grid;
+}
+
 .rating-container .puntuacion h2{
     font-weight: 700;
 }
@@ -77,7 +81,7 @@ body {
 
 
 .rating-container .agradecimiento{
-    display: grid;
+    display: none;
     justify-items: center;
 }
 
