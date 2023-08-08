@@ -59,7 +59,7 @@ body {
     color: rgb(124, 135, 152);
 }
 
-.rating-container .puntuacion .puntajes .puntaje{
+.rating-container .puntuacion .puntajes .numero{
     cursor: pointer;
 }
 
