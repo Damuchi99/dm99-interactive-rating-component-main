@@ -26,6 +26,10 @@ body {
     padding: 35px;
 }
 
+.rating-container .puntuacion h2{
+    font-weight: 700;
+}
+
 .rating-container .puntuacion .circulo{
     border-radius: 50%;
     background-color: rgb(37, 45, 55);
@@ -40,7 +44,7 @@ body {
     margin-top: 30px;
 }
 
-.rating-container .puntuacion p{
+.rating-container p{
     font-size: 15px;
     color: rgb(124, 135, 152);
 }
@@ -48,6 +52,7 @@ body {
 .rating-container .puntuacion .puntajes{
     display: flex;
     justify-content: space-around;
+    color: rgb(124, 135, 152);
 }
 
 .rating-container .puntuacion .boton-enviar{
@@ -63,9 +68,36 @@ body {
     margin-top: 30px;
 }
 
-/*.rating-container .puntuacion .boton-enviar p{
-    color: white;
-}*/
+
+
+
+.rating-container .agradecimiento{
+    display: grid;
+    justify-items: center;
+}
+
+.rating-container .agradecimiento .img-agradecimiento{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.rating-container .agradecimiento .puntaje-seleccionado{
+    background-color: rgb(37, 45, 55);
+    color: rgb(251, 116, 19)!important;
+    border-radius: 50px;
+    padding: 5px 15px;
+    margin-top: 30px;
+}
+
+.rating-container .agradecimiento h2{
+    margin: 30px;
+}
+
+.rating-container .agradecimiento p{
+    text-align: center;
+     margin: -5px!important;
+}
 
 /*-------CREDITOS-------*/
 
